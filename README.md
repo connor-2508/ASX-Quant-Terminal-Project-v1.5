@@ -64,6 +64,8 @@ The platform brings together the main pieces of a systematic research stack:
   - Monte Carlo pricing for Asian, barrier, lookback and digital options
 - **Interactive dashboard:** built in Streamlit, with 9 analytical modules, session-state caching, embedded portfolio analytics and a plain-English guide to interpreting every output.
 
+- **Note:** This was built entirely with Claude AI - This project doesn't display an understanding of coding, but rather, displays an understanding of the models, the development, the testing of the outputs and the integration of the components into the broader research workflow. Overall, this project required me to research, understand and integrate a wide range of financial models and concepts into a complete and functional dashboard and system.
+
 ## Dashboard
 
 | Tab | What it shows |
@@ -205,5 +207,3 @@ For the options pricer, the theoretically correct rate is the one matching the o
 Python · NumPy · pandas · SciPy · statsmodels · scikit-learn · XGBoost · arch · hmmlearn · Plotly · Streamlit · yfinance · pytest
 
 ---
-
-**Note:** This was built entirely with Claude AI - This project doesn't display an understanding of coding, but rather, displays an understanding of the models, the development, the testing of the outputs and the integration of the components into the broader research workflow. Overall, this project required me to research, understand and integrate a wide range of financial models and concepts into a complete and functional dashboard and system.
