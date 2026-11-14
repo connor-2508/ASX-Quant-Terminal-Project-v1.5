@@ -86,31 +86,40 @@ The platform brings together the main pieces of a systematic research stack:
 <!-- 📷 Paste screenshots under each heading below (drag-and-drop in the GitHub editor). Delete any you don't need. -->
 
 #### Market overview
-
+<img width="1460" height="800" alt="Screenshot 2026-11-15 at 1 07 19 am" src="https://github.com/user-attachments/assets/1a3d56e6-2b65-44a2-9ab8-e7040c33f27c" />
 
 #### Technical analysis
-
+<img width="1462" height="782" alt="Screenshot 2026-11-15 at 1 09 11 am" src="https://github.com/user-attachments/assets/2d1abe28-c63b-4687-a968-d2a90509bbcd" />
+<img width="1453" height="795" alt="Screenshot 2026-11-15 at 1 09 36 am" src="https://github.com/user-attachments/assets/9dc51ac5-eeb5-4768-b52c-2a4749cc3388" />
 
 #### Factor analysis
-
+<img width="1456" height="792" alt="Screenshot 2026-11-15 at 1 11 10 am" src="https://github.com/user-attachments/assets/48137f8b-fb7b-4325-b2b5-ad987452bc24" />
+<img width="1444" height="769" alt="Screenshot 2026-11-15 at 1 11 51 am" src="https://github.com/user-attachments/assets/fda2337f-5775-4fec-ba41-3dfdedbe8235" />
 
 #### Regime detection
-
+<img width="1464" height="787" alt="Screenshot 2026-11-15 at 1 12 13 am" src="https://github.com/user-attachments/assets/1019c5f9-4ee5-4e60-8752-db30c965d25e" />
+<img width="1447" height="678" alt="Screenshot 2026-11-15 at 1 13 02 am" src="https://github.com/user-attachments/assets/9c86166a-fab8-4c3e-96bb-966888cce978" />
+<img width="1444" height="670" alt="Screenshot 2026-11-15 at 1 13 58 am" src="https://github.com/user-attachments/assets/f70ea77b-603b-41f8-95f8-9d16b5684e0e" />
 
 #### Strategy backtest
-
+<img width="1440" height="635" alt="Screenshot 2026-11-15 at 1 14 53 am" src="https://github.com/user-attachments/assets/7a1b67f7-f01c-4dc8-895d-365a8ed39bcc" />
+<img width="1442" height="718" alt="Screenshot 2026-11-15 at 1 15 22 am" src="https://github.com/user-attachments/assets/aab9eba9-a4e4-4498-b36a-36fb6897aefc" />
 
 #### Portfolio optimisation
-
+<img width="1456" height="759" alt="Screenshot 2026-11-15 at 1 15 50 am" src="https://github.com/user-attachments/assets/6e488a28-8b20-42b3-a5fa-b80393087f95" />
+<img width="1454" height="778" alt="Screenshot 2026-11-15 at 1 16 40 am" src="https://github.com/user-attachments/assets/93ae0cc3-47b4-4923-9a20-da308442b9ac" />
 
 #### Monte Carlo simulation
-
+<img width="1456" height="749" alt="Screenshot 2026-11-15 at 1 17 37 am" src="https://github.com/user-attachments/assets/ad6b9a25-53d3-41b0-b6e2-318d8564a9e8" />
 
 #### Options pricer
-
+<img width="1445" height="735" alt="Screenshot 2026-11-15 at 1 18 38 am" src="https://github.com/user-attachments/assets/a65eca44-7074-4150-ba7c-29f1f06a0e79" />
 
 #### Portfolio analytics
-
+<img width="1457" height="755" alt="Screenshot 2026-11-15 at 1 19 32 am" src="https://github.com/user-attachments/assets/cf083c97-d1e1-45cc-895b-895fad3c292c" />
+<img width="1439" height="780" alt="Screenshot 2026-11-15 at 1 19 55 am" src="https://github.com/user-attachments/assets/ccd310af-dc05-4cfb-b7b2-e77005f72798" />
+<img width="1442" height="779" alt="Screenshot 2026-11-15 at 1 20 13 am" src="https://github.com/user-attachments/assets/53a50f4a-7fdb-4023-9603-cd765ab9ce4a" />
+<img width="1449" height="748" alt="Screenshot 2026-11-15 at 1 21 07 am" src="https://github.com/user-attachments/assets/269ff94d-6cc2-40b0-914f-c6e5cd74f19a" />
 
 ## Technical detail
 
@@ -201,6 +210,7 @@ For the options pricer, the theoretically correct rate is the one matching the o
 - **Price-based proxies:** value and quality signals use prices, not fundamental data. The Fama-French factors from a small universe are noisy.
 - **Option style:** options are priced as European with a continuous dividend yield, but ASX single-stock options are American.
 - **Data quality:** Yahoo Finance data is adjusted close only, with no point-in-time corporate-action audit trail.
+- **Portfolio Analytics:** Attributions, Weight vs Risk Contribution need to be reviewed and possibly updated
 
 ## Tools
 
